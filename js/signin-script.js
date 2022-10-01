@@ -10,7 +10,7 @@ firebase.auth().onAuthStateChanged((user) => {
     event.preventDefault();
     firebase.auth().sendPasswordResetEmail(email)
   .then(() => {
-   alert("verification email has been sent!")
+   alert("A reset password email has been sent to your email address. Please follow the instructions on the email to reset your password.")
   })
   .catch((error) => {
     var errorCode = error.code;
