@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gamesite.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png"> -->
+</head>
+<body>
+
+    <header id="navigation-bar-own">
+        <section>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">The Game Site Developer<span class="color-style"></span> </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="./home.html">Home</a>
+
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./courses.html">Courses</a>
+
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./books.html">Books</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/profile.html">Profile</a>
+  
+                          </li>
+
+                        <li class="nav-item"></li>
+                           <li class="nav-item">
+                          <a class="nav-link" href="" onclick="logout(event)">Log out &nbsp;<i class="fas fa-sign-out-alt"></i></a>
+                        </li>
+                    </ul>
+                    </div>
+                  </nav>
+                  <div class="row">
+                    <div class="col-md-7">
+                        <section class="left-textDetails">
+                            <h1
+                                style="font-size: 2rem;"
+                              class="wow fadeInUp"
+                              data-wow-duration="1s"
+                               
+                            >
+                           <span class="color-style">WELCOME TO </span>THE GAME SITE DEVELOPER
+                            </h1>
+              
+                            <p
+                              class="wow fadeInUp"
+                              data-wow-duration="1s"
+                               
+                            >
+                            View our courses, books and more to learn more about software & game development.
+                            </p>
+                             
+                            <p
+                              class="wow fadeInUp"
+                              data-wow-duration="1s"
+                               
+                            >
+                            <strong>PLEASE NOTE THIS IS A BETA WEBSITE AND IS STILL UNDER DEVELOPMENT</strong>
+                            </p>
+                            
+                            
+                            <button
+                              class="btn custom-btn wow fadeInUp"
+                              class="wow fadeInLeft"
+                              data-wow-duration="1s"
+                               
+                            >
+                              <a href="./courses.html">View our Courses</a>
+                            </button>
+                            <button
+                              class="btn custom-btn wow fadeInUp"
+                              class="wow fadeInLeft"
+                              data-wow-duration="1s"
+                               
+                            >
+                              <a href="./books.html">View our Books</a>
+                            </button>
+                          </section>
+                    </div>
+                  </div>
+            </div>
+        </section> 
+        <!-- Close-my-navigation-section -->
+    </header>
+    
+<main>
+<section id="sections">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <section class="left-textDetails">
+                    <h2
+                        style="font-size: 2rem; color: black;"
+                      class="wow fadeInUp"
+                      data-wow-duration="1s"
+                       
+                    >
+                   <span class="color-style">FEATURED</span> COURSES.</h2>
+      
+                    <p
+                    style="color: #8a7edd;"
+                      class="wow fadeInUp"
+                      data-wow-duration="1s"
+                       
+                    >
+                    View our featured courses on software and game development
+                    </p>
+                    
+                    
+                    <button
+                      class="btn custom-btn wow fadeInUp"
+                      class="wow fadeInLeft"
+                      data-wow-duration="1s"
+                       
+                    >
+                      <a href="#">Browse More.</a>
+                    </button>
+                  </section>
+            </div>
+            <div class="col-md-7">
+                <div class="row" style="margin-top:4rem ;">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 10rem; height: auto; border: none;">
+                            <img class="card-img-top" src="" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title color-style">Android Course</h4>
+                              <!-- <a href=""><i class="fab fa-facebook-f"></i></a>
+                              <a href=""><i class="fab fa-instagram"></i></a> -->
+                                <p><a href="https://www.udemy.com/course/creating-your-first-android-application-from-scratch/">Enroll now</a> </p>
+                            
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <div class="card" style="width: 10rem; height: auto; border: none;">
+                            <img class="card-img-top" src="" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title color-style">Java Course</h4>
+                                <p><a href="https://www.udemy.com/course/learning-the-basics-of-java/">Enroll now</a> </p>
+                            
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 10rem; height: auto; border: none;">
+                            <img class="card-img-top" src="" alt="Card image cap">
+                            <div class="card-body">
+                              <h4 class="card-title color-style">Unity3D Course</h4>
+                                <p>COMING SOON</p>
+                            
+                            </div>
+                          </div>
+                    </div>
+                </div>
+               
+                  
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 img-about-container">
+               <img src="./images/login.png" class="img-about"/>
+
+        
+               
+            </div>
+            <div class="col-md-6">
+                <section class="left-textDetails">
+                    
+                    
+                    <h1  class="wow fadeInUp"
+                    data-wow-duration="1s"
+                     > <span class="color-style">GAME </span>SITE <br><br/>A PLACE FOR PROFESSIONAL GAMERS</h1>
+      
+                    <p
+                      class="wow fadeInUp"
+                      data-wow-duration="1s"
+                       
+                    >
+                     
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero officiis rem consectetur sunt cupiditate eius obcaecati, culpa, aspernatur aperiam id.
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero officiis rem consectetur sunt cupiditate eius obcaecati, culpa, aspernatur aperiam id.
+                    </p>
+                    
+                    
+                    <button
+                      class="btn custom-btn wow fadeInUp"
+                      class="wow fadeInLeft"
+                      data-wow-duration="1s"
+                       
+                    >
+                      <a href="#">Explore</a>
+                    </button>
+                  </section>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="footer">
+
+   <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1   class="wow fadeInUp"
+            data-wow-duration="1s">GAME SITE.</h1>
+<p>
+
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero officiis rem consectetur sunt cupiditate eius obcaecati, culpa, aspernatur aperiam id.
+
+</p>
+<p>Follow us </p>
+
+  <a href=""><i class="fab fa-facebook-f"></i></a>
+<a href=""><i class="fab fa-instagram"></i></a>
+<a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="col-md-6">
+<div class="row">
+    <div class="col-md-6">
+        <h1   class="wow fadeInUp"
+        data-wow-duration="1s">SITE MENU</h1>
+        <p>Home</p>
+        <p>Tournaments</p>
+        <p>Home</p>
+        <p>Tournaments</p>
+       
+       
+    </div>
+    <div class="col-md-6">
+        <h1   class="wow fadeInUp"
+        data-wow-duration="1s">USE FULL LINKS</h1>
+        <p>Subscription</p>
+        <p>Affiliate</p>
+        <p>Subscription</p>
+        <p>Affiliate</p>
+        
+        
+       
+    </div>
+</div>
+          
+        </div>
+    </div>
+   </div>
+</section>
+    
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- <script>
+var onloading=()=>{document.getElementById("loading-screen-bg").style.display="none";}
+</script> -->
+<script src="js/wow.min.js"></script>
+
+<script>
+    new WOW().init();
+</script>
+
+
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+<script>
+ // Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyC-hOvpd8QjbZ0fvVYgSarL_WYwcXVQdG0",
+  authDomain: "gamesitedev-97103.firebaseapp.com",
+  projectId: "gamesitedev-97103",
+  storageBucket: "gamesitedev-97103.appspot.com",
+  messagingSenderId: "399079116537",
+  appId: "1:399079116537:web:a8417179c622f9e48d5c28"
+   };
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="./js/home.js"></script>
+
+
+</body>
+</html>
+Footer
